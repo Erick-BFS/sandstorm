@@ -25,9 +25,10 @@ body {
 
 a:link {
     color: white;
+    padding: 5px;
     display: inline-flex;
 }
 
 a:hover {
-    background-color: none;
+    background-color: rgb(155, 63, 21);
 }
