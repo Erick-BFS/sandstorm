@@ -1,3 +1,33 @@
-h1 {
+body {
+    background-color: sandybrown;
+    margin: 0;
+}
+
+.header {
     font-family: 'Courier New', Courier, monospace;
+    text-transform: uppercase;
+    padding: 5px;
+    background-color: sienna;
+    border-bottom: 5px solid saddlebrown;
+    color: white;
+}
+
+.gallery {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1em;
+}
+
+.login {
+    text-align: right;
+}
+
+a:link {
+    color: white;
+    display: inline-flex;
+}
+
+a:hover {
+    background-color: none;
 }
